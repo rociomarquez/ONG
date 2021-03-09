@@ -153,6 +153,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\BeneficiariosController.cs" />
+    <Compile Include="Controllers\BeneficiosController.cs" />
     <Compile Include="Controllers\CategoriasController.cs" />
     <Compile Include="Controllers\DesaparecidosController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -174,6 +176,16 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Beneficios\Index.cshtml" />
+    <Content Include="Views\Beneficios\Crear.cshtml" />
+    <Content Include="Views\Beneficios\Editar.cshtml" />
+    <Content Include="Views\Beneficios\Detalle.cshtml" />
+    <Content Include="Views\Beneficios\Eliminar.cshtml" />
+    <Content Include="Views\Beneficiarios\Index.cshtml" />
+    <Content Include="Views\Beneficiarios\Crear.cshtml" />
+    <Content Include="Views\Beneficiarios\Editar.cshtml" />
+    <Content Include="Views\Beneficiarios\Detalle.cshtml" />
+    <Content Include="Views\Beneficiarios\Eliminar.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

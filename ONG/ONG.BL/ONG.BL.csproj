@@ -52,11 +52,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Beneficiario.cs" />
+    <Compile Include="BeneficiariosBL.cs" />
+    <Compile Include="Beneficio.cs" />
+    <Compile Include="BeneficiosBL.cs" />
     <Compile Include="Categoria.cs" />
     <Compile Include="CategoriasBL.cs" />
     <Compile Include="Contexto.cs" />
     <Compile Include="Desaparecido.cs" />
     <Compile Include="DesaparecidosBL.cs" />
+    <Compile Include="Orden.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

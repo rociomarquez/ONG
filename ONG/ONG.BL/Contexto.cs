@@ -23,5 +23,10 @@ namespace ONG.BL
 
         public DbSet<Desaparecido> Desaparecidos { get; set; }
         public DbSet<Categoria> Categorias { get; set; }
+        public DbSet<Beneficio> Beneficios { get; set; }
+        public DbSet<Beneficiario> Beneficiarios { get; set; }
+
+        public DbSet<Orden> Ordenes { get; set; }
+        public DbSet<OrdenDetalle> OrdenDetalle { get; set; }
     }
 }
