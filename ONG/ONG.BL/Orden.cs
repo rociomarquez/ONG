@@ -15,10 +15,13 @@ namespace ONG.BL
         public double Total { get; set; }
 
         public List<OrdenDetalle> ListadeOrdenDetalle { get; set; }
+        public bool Activo { get; private set; }
 
         public Orden()
         {
             Activo = true;
+
+
             Fecha = DateTime.Now;
         }
     }
@@ -29,8 +32,8 @@ namespace ONG.BL
         public int OrdenId { get; set; }
         public Orden Orden { get; set; }
 
-        public int RegistroId { get; set; }
-        public Registro Registro { get; set; }
+        public int DesaparecidoId { get; set; }
+        public Desaparecido Desaparecido { get; set; }
 
         public int Cantidad { get; set; }
         public double Precio { get; set; }
