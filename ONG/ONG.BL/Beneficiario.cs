@@ -10,7 +10,7 @@ namespace ONG.BL
     {
         public Beneficiario()
         {
-            Activo = true;
+            Activo = false;
         }
 
         public int Id { get; set; }

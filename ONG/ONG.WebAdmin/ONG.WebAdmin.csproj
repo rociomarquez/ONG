@@ -138,11 +138,6 @@
     <None Include="scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="scripts\jquery-1.10.2.js" />
     <Content Include="scripts\jquery-1.10.2.min.js" />
-    <None Include="scripts\jquery.validate-vsdoc.js" />
-    <Content Include="scripts\jquery.validate.js" />
-    <Content Include="scripts\jquery.validate.min.js" />
-    <Content Include="scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
     <Content Include="Views\Desaparecidos\Index.cshtml" />
@@ -163,6 +158,7 @@
     <Compile Include="Controllers\CategoriasController.cs" />
     <Compile Include="Controllers\DesaparecidosController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\OrdenDetalleController.cs" />
     <Compile Include="Controllers\OrdenesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -194,6 +190,11 @@
     <Content Include="Views\Beneficiarios\Eliminar.cshtml" />
     <Content Include="Views\Ordenes\Index.cshtml" />
     <Content Include="Views\Ordenes\Crear.cshtml" />
+    <Content Include="Views\Ordenes\Detalle.cshtml" />
+    <Content Include="Views\Ordenes\Editar.cshtml" />
+    <Content Include="Views\OrdenDetalle\Index.cshtml" />
+    <Content Include="Views\OrdenDetalle\Crear.cshtml" />
+    <Content Include="Views\OrdenDetalle\Eliminar.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
